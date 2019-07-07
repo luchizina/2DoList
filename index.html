@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html lang="es" >
+   <head>
+      <meta charset="UTF-8">
+      <title>Mis tareas</title>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div class="listaDiaria">
+         <h2>MIS TAREAS</h2>
+         <div class="dropdown">
+            <span class="icon"> ℹ️ </span>
+            <div class="dropdown-content">
+               <p>•Para agregar una tarea presiona enter.</p>
+               <hr>
+               <p>•¿Querés editarla? Click derecho sobre el texto a editar.</p>
+               <hr>
+               <p>•¿Querés borrarlo? hace doble click sobre un espacio vacío de la tarea.</p>
+               <hr>
+               <p>•La tarea está completa? Haz click sobre un espacio vacio de la tarea</p>
+               <hr>
+            </div>
+         </div>
+         <div class="scr">
+            <input type="text" id="input" placeholder="Escribi una tarea..." />
+            <ul class="list"></ul>
+         </div>
+         <label for=comple> Tareas completas:
+         <span id='comple' name="comple" >0 </span> || Tareas por completar:
+         <span id='incom' name="incom" >0 </span> 
+         </label>
+         <button class="jaja">🗑️ Borrar completas</button>
+      </div>
+      <script  src="js/script.js"></script>
+   </body>
+</html>
+
